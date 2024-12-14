@@ -1,0 +1,327 @@
+*
+{
+ margin: 0%;
+ padding: 0%;
+ box-sizing: border-box;
+}
+.main
+{
+    width: 100%;
+    position: fixed;
+}
+.navbar
+{
+    height: 50px;
+    width: 100%;
+    background-color:black;
+    margin: auto;
+    background-attachment: fixed;
+    
+}
+.navbarcontainer
+{
+    height: 50px;
+    width: 80%;
+    margin: auto;
+    
+}
+.txt a
+{
+    text-decoration: none;
+    position: relative;
+    left: 70%;
+    color: white;
+    font-size: 18px;
+    
+    
+}
+.txt
+{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+   
+}
+.bar
+{
+    height: 80px;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    background-color: white;
+   
+}
+.logo
+{
+    
+    width: 15%;
+}
+.logo img
+{
+    
+    width: 100%;
+    
+}
+
+.menuItems ul
+{
+  
+    display: flex;
+    position: relative;
+    left: 60%;
+}
+.menuItems ul li
+{
+    list-style: none;
+    padding: 0px 20px;
+}
+.menuItems ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+.menuItems ul li::after
+{
+    content: '';
+    border-bottom: 2px solid black;
+    width: 0%;
+    display:block;
+    margin: auto;
+    position: relative;
+    top: 10px;    
+    
+}
+.menuItems ul li:hover:after
+{
+    width: 100%;
+    transition: 0.7s;
+    
+}
+
+.search
+{
+    
+    height: 30px;
+    width: 20%;
+    position:absolute;
+    left: 70%;
+    top: 54%;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    display:flex;
+}
+.search input
+{
+    height: 35px;
+    width: 80%;
+    border-radius: 20px;
+    outline: 1px;
+    border: 1px solid grey;
+    padding-left: 40px;
+    
+}
+.search input::placeholder
+{
+    
+    padding-top: 6px;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.search img
+{
+    height: 18px;
+    width: 18px;
+    position: relative;
+    left: 30px;
+    top: 8px;
+    
+}
+.banner
+{
+    height: 430px;
+    width: 82%;
+    margin: auto;
+    background-color:blue;
+}
+.banner img
+{
+    height: 430px;
+    width: 100%;
+}
+
+.trt h4
+{
+    text-align: center;
+    font-size: 26px;
+    color: rgb(105, 104, 104);
+}
+h4::after
+{
+    content: '';
+    border: 1px solid darkgray;
+    display: flex;
+    box-sizing: border-box;
+    width: 30%;
+    position: relative;
+    left: 12%;
+    bottom: 15px;
+}
+h4::before
+{
+    content: '';
+    border: 1px solid darkgray;
+    display: flex;
+    box-sizing: border-box;
+    width: 30%;
+    position: relative;
+    left: 58%;
+    bottom: 15px;
+    top: 17px;
+}
+.shop
+{
+    height: 600px;
+    width: 80%;
+   
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.shop .box1
+{
+    height: 280px;
+    width: 260px;
+    
+    border-radius: 10px;
+}
+.shop .box1 img
+{
+    height: 280px;
+    width: 260px;
+    border-radius: 10px;
+}
+.vdo
+{
+    height: 980px;
+    width: 80%;
+    
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.vdo .v1
+{
+    height: 320px;
+    width: 260px;
+  
+    border-radius: 20px;
+}
+.vdo .v1 video
+{
+    height: 320px;
+    width: 260px;
+    border-radius: 20px;
+    
+}
+.vdo .v1 img
+{
+    height: 320px;
+    width: 260px;
+    border-radius: 20px;
+}
+.but
+{
+    width: 10%;
+    position: relative;
+    left: 45%;
+}
+.but button
+{
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    outline: 1px solid lightgray;
+    border: none;
+    background-color: whitesmoke;
+}
+.footer
+{
+    height: 480px;
+    width: 100%;
+    background:rgb(249 250 251 ); ;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-evenly;
+    position: relative;
+    
+}
+.footer .one
+{
+    font-size: 20px;
+    line-height: 30px;
+    position: relative;
+    top: 20%;
+}
+.footer .two
+{
+    font-size: 20px;
+    line-height: 30px;
+    position: relative;
+    top: 20%;
+}
+.footer .three
+{
+    font-size: 20px;
+    line-height: 30px;
+    position: relative;
+    top: 20%;
+}
+.footer .four
+{
+    font-size: 20px;
+    line-height: 30px;
+    position: relative;
+    top: 20%;
+}
+.icon
+{
+    text-align: center;
+    font-size: 42px;
+}
+p
+{
+    text-align: justify;
+    text-align: center;
+    color: gray;
+}
+.four a
+{
+    text-decoration: none;
+    color: black;
+}
+.three a
+{
+    text-decoration: none;
+    color: black;
+}
+.two a
+{
+    text-decoration: none;
+    color: black;
+}
+.one a
+{
+    text-decoration: none;
+    color: black;
+}
