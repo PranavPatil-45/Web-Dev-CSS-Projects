@@ -1,0 +1,779 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.navbar
+{
+    height: 60px;
+    width: 100%;
+   background-color: white
+}
+.navcontainer
+{
+    height: 60px;
+    width: 90%;
+    margin: auto;
+   
+}
+.logo
+{
+    height: 60px;
+    width: 15%;
+   
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+    float: left;
+}
+.logo img
+{
+    height: 80px;
+    width: 100%;
+    font-size: 28px;
+}
+.menulist
+{
+    height: 60px;
+    width: 65%;
+   
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+
+
+}
+.menulist ul
+{
+    display: flex;
+    align-items: center;
+    
+}
+.menulist ul li
+{
+    list-style: none;
+    padding: 20px;
+ 
+}
+.menulist ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.icon
+{
+    height: 60px;
+    width:20%;
+   
+    float: left;
+    display: flex;
+    
+    align-items: center;
+}
+.icon i
+{
+    font-size: 24px;
+    padding: 10px;
+}
+body
+{
+    background-color: whitesmoke;
+}
+.slider
+{
+    height: 650px;
+    width: 95%;
+    background-color: rgb(235, 230, 221);
+    margin: auto;
+    align-items: center;
+}
+.slider img
+{
+    height: 630px;
+    width: 100%;
+    padding-top: 30px;
+}
+.ar
+{
+    height: 70px;
+    width: 90%;
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+    position: relative;
+    bottom: 60%;
+}
+.ar i
+{
+    font-size: 58px;
+}
+.hyundaicars
+{
+    height: 680px;
+    width: 100%;
+    background-color: white;
+}
+.dash
+{
+    height: 40px;
+    width: 30%;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.dash a
+{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dash a::after
+{
+    content: '';
+    border-bottom: 3px solid blue;
+    width: 0%;
+    margin: auto;
+    display: inline-block;
+    transition-duration: 0.5s;
+}
+.dash a:hover::after
+{
+    width: 100%;
+    transition: 0.8s;
+    
+}
+.im
+{
+    height: 300px;
+    width: 100%;
+}
+.im img
+{
+    height: 300px;
+    width: 100%;
+}
+.carinfo
+{
+    width: 54%;
+    margin: auto;
+   
+    justify-content: space-between;
+    
+
+}
+.carinfo table td
+{
+    padding: 0px 40px;
+}
+.arr
+{
+    height: 70px;
+    width: 70%;
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+}
+.arr i
+{
+    font-size: 48px;
+}
+.buttons
+{
+    height: 180px;
+    width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.buttons button
+{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(99, 92, 92);
+    border: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.buttons button a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.box
+{
+    height: 160px;
+    width: 100%;
+    background-color: rgb(11, 11, 92);
+}
+.txt
+{
+    height: 160px;
+    width: 30%;
+   
+    
+}
+.txt p
+{
+    align-content: end;
+    position: relative;
+    left: 30%;
+    top: 50%;
+}
+.sec
+{
+    height: 500px;
+    width: 80%;
+   
+    position: relative;
+    left: 10%;
+    margin-top: 5%;
+    
+}
+.sec table td
+{
+    padding-left: 10px;
+}
+.sce
+{
+    height: 450px;
+    width: 100%;
+    background-color: aqua;
+}
+.sce img
+{
+    height: 450px;
+    width: 100%;
+}
+.button2
+{
+    height: 55px;
+    width:20%;
+    margin: auto;
+    background-color: aqua;
+}
+.button2 button
+{
+    height: 55px;
+    width: 100%;
+    background-color:  rgb(11, 11, 92);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+.box2
+{
+    height: 160px;
+    width: 100%;
+    background-color: rgb(11, 11, 92);
+}
+.txt1
+{
+    height: 160px;
+    width: 30%;
+   
+    
+}
+.txt1 p
+{
+    align-content: end;
+    position: relative;
+    left: 30%;
+    top: 50%;
+}
+.tbl
+{
+    height: 650px;
+    width: 70%;
+    position: absolute;
+    left: 15%;
+    margin-top: 10%;
+    display: block;
+}
+.tbl table td img
+{
+    height: 40%;
+    width: 100%;
+    padding: 4px 8px;
+    
+}
+.tlb
+{
+    height: 800px;
+    width: 100%;
+}
+.bg
+{
+    height: 400px;
+    width: 100%;
+    background-color: aquamarine;
+}
+.bg img
+{
+    height: 650px;
+    width: 100%;
+}
+.h
+{
+    position: relative;
+    bottom: 140%;
+}
+.bx
+{
+    height: 400px;
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    position: relative;
+    bottom: 120%;
+}
+.yd
+{
+    height: 55px;
+    width: 17%;
+    position: relative;
+    top: 55px;
+    left: 40%;
+}
+.hd
+{
+    position: relative;
+    bottom: 195%;
+}
+.bt
+{
+   width: 15%;
+    position: relative;
+    left: 42%;
+    bottom: 194%;
+}
+.bt button
+{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(11, 11, 92);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    border: none;
+}
+.arr3
+{
+    height: 40px;
+    width: 70%;
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+    position: relative;
+    bottom: 180%;
+}
+.arr3 i
+{
+    font-size: 48px;
+    position: relative;
+}
+.lol
+{
+    height: 1000px;
+    width: 100%;
+    background-color: white;
+    
+}
+.tc
+{
+    height: 30px;
+    width: 50%;
+   
+    position: relative;
+    top: 35%;
+    left: 30%;
+
+}
+.st
+{
+    height: 30px;
+    width: 80%;
+  
+    position: relative;
+    top: 55%;
+    left: 11%;
+   justify-content: space-evenly;
+   display: flex;
+}
+.rd
+{
+    
+    position: relative;
+    top: 30%;
+    right: 5%;
+    width: 28%;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+.sl
+{
+    height: 40px;
+    width: 60%;
+    
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    right:9%;
+}
+.sl select
+{
+    height: 40px;
+    width: 30%;
+    outline: none;
+    border:1px solid grey;
+
+}
+.bt2
+{
+     background-color: aqua;
+    position: relative;
+    top: 62%;
+    left: 43%;
+    width: 10%;
+    height: 40px;
+    
+
+
+}
+.bt2 button
+{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(11, 11, 92);
+    border: none;
+    outline: none;
+}
+.bt2 button a
+{
+    text-decoration: none;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.map
+{
+    height: 650px;
+    width: 60%;
+    background-color: aqua;
+
+}
+.map iframe
+{
+    width: 100%;
+    height: 650px;
+}
+.map-content
+{
+    height: 670px;
+    width: 100%;
+    display: flex;
+}
+.locations-info
+{
+    height: 650px;
+    width: 40%;
+    background-color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.locations-info h6
+{
+    font-family: montserrat;
+    color: black;
+    font-size: 15px;
+    padding-left: 50px;
+}
+.locations-info ul
+{
+    font-family: montserrat;
+    padding:0px 10px 0px 50px ;
+    list-style: none;
+
+}
+.locations-info ul a
+{
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+    
+}
+.locations-info ul li
+{
+    padding-top: 60px;
+    border-bottom:1px solid grays;
+}
+.locations-info ul i
+{
+    font-size: 30px;
+}
+.locations-info ul span
+{
+    font-family: montserrat;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    left:43%;
+    color: #002c5f;
+}
+.locations-info ul h2
+{
+    font-family: montserrat;
+    font-size: smaller;
+    color: black;
+    padding-left: 45px;
+    font-weight: lighter;
+}
+.locations-info ul hr
+{
+    color: gray;
+    margin-top: 7%;
+}
+.locations-info p a
+{
+    font-family: arial;
+    color: #002c5f;
+    position: relative;
+    left:38%;
+    top: 20px;
+}
+.jump-box
+{
+    position: relative;
+    top: 100%;
+    background-color: aqua;
+    height: 50px;
+    width: 61px;
+    background-color: black;
+
+}
+.up
+{
+    height: 50px;
+    width: 65px;
+    background-color: black;
+    position: absolute;
+    top: 915%;
+    left: 95.1%;
+    display: flex;
+}
+.up i
+{
+    color: white;
+    font-size: 32px;
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+.footer
+{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(17, 17, 17);
+    position: absolute;
+    top: 922%;
+    right: 40$;
+}
+.lg
+{
+    height: 50px;
+    width: 50px;
+    
+    position: relative;
+    top: 9%;
+    left: 10%;
+}
+.lg img
+{
+    height: 50px;
+    width: 100%;
+    color: white;
+}
+.ts1
+{
+    height: 60vh;
+    width: 10%;
+    float: left;
+    position: relative;
+    left: 15%;
+}
+.ts1 a
+{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 14px;
+    
+}
+.ts2
+{
+    height: 60vh;
+    width: 10%;
+   
+    position: relative;
+    left: 16%;
+    float: left;
+}
+.ts2 a
+{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 14px;
+}
+.ts3
+{
+    height: 60vh;
+    width: 10%;
+   
+    position: relative;
+    left: 18%;
+    float: left;
+}
+.ts3 a
+{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 14px;
+}
+.ts4
+{
+    height: 60vh;
+    width: 15%;
+   
+    position: relative;
+    left: 20%;
+    float: left;
+}
+.ts4 a
+{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 14px;
+}
+.ts4 span
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ts5
+{
+    height: 60vh;
+    width: 12%;
+   
+    position: relative;
+    left: 20%;
+    float: left;
+}
+.ts5 a
+{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 14px;
+}
+.ic
+{
+    height: 5vh;
+    width: 14%;
+   
+    position: relative;
+    left: 20%;
+    float: left;
+}
+.ic i
+{
+    padding: 0px 5px;
+    color: darkgray;
+}
+.copyright
+{
+    
+    width: 45%;
+    position: relative;
+    left: 15%;
+    bottom: 15%;
+}
+.copyright h3
+{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+}
+.ft
+{
+    height: 70px;
+    width: 100%;
+    background-color: #002c5f ;
+    position: relative;
+    top: 90%;
+    
+   
+}
+.footer-menu
+{
+    height: 70px;
+    width: 100%;
+    background-color: #002c5f;
+}
+.footer-content
+{
+    height: 70px;
+    width: 70%;
+    margin: auto;
+    
+}
+.footer-content ul
+{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.footer-content ul a
+{
+    color: white;
+    font-family: montserrat;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    left: 10px;
+}
+.footer-content ul a:hover
+{
+    text-decoration: underline white 1px;
+}
+
+.footer-content ul img
+{
+    padding-top: 10px;
+    position: relative;
+    top: 7px;
+}
+.ft
+{
+    position: fixed;
+    bottom: 0%;
+    
+    
+}
